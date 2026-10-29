@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local data: database, imports, exports, backups, generated samples
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/backups/
+data/exports/
+data/imports/
+data/documents/
+data/sample/*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

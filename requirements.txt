@@ -1,0 +1,10 @@
+# Runtime dependencies for the Indonesian Equity Research & Decision Terminal.
+# Python 3.11+ is required (3.12 recommended).
+streamlit>=1.40,<2
+pandas>=2.2,<4
+numpy>=1.26,<3
+plotly>=5.20,<8
+pydantic>=2.7,<3
+openpyxl>=3.1,<4
+reportlab>=4.1,<6
+requests>=2.31,<3
